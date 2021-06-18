@@ -135,6 +135,22 @@ body {
 .home-btn:focus{
     outline: none;
 }
+.home-btny{
+    border: 2px solid white;
+    border-radius: 8px;
+    width:fit-content;
+    padding: 3px 8px;
+    margin-left: 10px;
+}
+.home-btny:hover{
+    border: 2px solid gray;
+    background-color: white;
+    color: black;
+    outline: none;
+}
+.home-btny:focus{
+    outline: none;
+}
 .home{
     width: 90%;
 }
@@ -145,6 +161,15 @@ body {
     color: rgb(38, 78, 255);
     text-decoration: underline;
 }
+.home-btnx{
+    display: none;
+}
+.more-info{
+    background-color: rgb(22, 21, 21);
+}
+.more-info:hover{
+    background-color: rgb(24, 0, 158);
+}
 @media only screen and (max-width: 390px) {
     #top-img{
         width: auto;
@@ -154,4 +179,14 @@ body {
         flex-direction: column;
     }
     
+}
+@media only screen and (max-width: 550px) {
+    .home-btn{
+        display: none;
+    }
+    .home-btnx{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
