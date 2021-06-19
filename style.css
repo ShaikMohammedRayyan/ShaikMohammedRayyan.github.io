@@ -155,10 +155,11 @@ body {
     width: 90%;
 }
 #arshad{
-    transition: all ease-in-out 0.5;
+    color: aqua;
+    transition: all ease-in-out 0.9;
 }
 #arshad:hover{
-    color: rgb(38, 78, 255);
+    color: rgb(106, 133, 255);
     text-decoration: underline;
 }
 .home-btnx{
